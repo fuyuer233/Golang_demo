@@ -21,6 +21,7 @@ func main() {
 		counts[input.Text()]++
 	}
 	// NOTE: ignoring potential errors from input.Err()
+	//sjdsjdi
 	for line, n := range counts {
 		if n > 10 {
 			fmt.Printf("%d\t%s\n", n, line)
